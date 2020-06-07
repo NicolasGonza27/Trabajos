@@ -36,5 +36,21 @@ public class Autor {
 	public String toString() {
 		return "Autor "+this.nombre+" "+this.apellido+", correo electronico "+this.email+", genero "+this.genero;
 	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	
 }
