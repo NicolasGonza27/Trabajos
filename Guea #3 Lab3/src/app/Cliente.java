@@ -19,7 +19,7 @@ public class Cliente implements Utiles{
 	}
 	
 	public String getGeneroString() {
-		if(strthis.genero == "m") {
+		if(genero == "m") {
 			return "Masculino";
 		}
 		if(this.genero == "f") {
